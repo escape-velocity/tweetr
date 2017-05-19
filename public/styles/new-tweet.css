@@ -2,22 +2,24 @@
 /*file for css to tweets page*/
 main {
   width: 450px;
-   background-color: #dcd8d8;
+   background-color: white;
   margin: 140px auto 0 auto;
   padding: 20px 20px;
-  text-align: center;
-
   }
 
 main section.new-tweet {
+  margin-bottom: 10px;
   border-radius: 10px;
-  border: 1px solid gray;
-  padding: 25px 10px;
-  text-decoration: underline;
+  border: 1px solid black;
+  padding: 25px 20px;
   background: #dcd8d8;
   }
+main h2 {
+    border-bottom: 1px solid black;
+    margin-top: 3px;
+  }
 main section textarea {
-  width: 90%;
+  width: 100%;
   padding: 2px 0 0 2px;
   }
 
@@ -27,6 +29,3 @@ main section textarea {
  input {
   float: left;
  }
-  form {
-    padding: 5px 0 0 12px;
-  }
