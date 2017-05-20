@@ -32,9 +32,6 @@ $(function() {
     tweets.forEach(function(tweet) {
       $tweetContainer.prepend(createTweetElement(tweet));
     });
-    // console.log('tweets');
-
-
     // This one calls createTweetElement for each tweet
     // takes return value and appends it to the tweets container
   }
@@ -75,17 +72,13 @@ $(function() {
     }
   });
 
+  $("button").click(function() {
+    $(".new-tweet").slideToggle();
+    $('textarea').focus();
+    $("body").scrollTop(0);
+  });
 
-
-
-
-    $("button").click(function() {
-      $(".new-tweet").slideToggle();
-      $('textarea').focus();
-      $("body").scrollTop(0);
-    });
-
-   $(".new-tweet").hide();
+  $(".new-tweet").hide();
 
   function escape(str) {
     var div = document.createElement('div');
