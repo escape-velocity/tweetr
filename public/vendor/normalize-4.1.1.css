@@ -200,7 +200,12 @@ sup {
  */
 
 img {
+
   border-style: none;
+  margin-left: 10px;
+  margin-top: 5px;
+  height: 60px;
+  border-radius: 10px;
 }
 
 /**

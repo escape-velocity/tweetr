@@ -6,11 +6,11 @@
   overflow-wrap: break-word;
   opacity: 0.5;
   padding-top: 0px;
-  transition: .5s all ease-in-out;
+  transition: .25s all ease-in-out;
   }
 .tweet:hover {
   opacity: 1;
-  transition: .5s all ease-in-out;
+  transition: .25s all ease-in-out;
 }
 
 .tweet header {
