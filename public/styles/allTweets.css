@@ -26,11 +26,14 @@
   float: left;
   width: 50px;
   height: 50px;
+  border-radius: 10px;
 }
 .tweet header h3 {
   float: left;
   width: 70%;
-  line-height: 40px;
+  line-height: 19px;
+  padding-left: 10px;
+  font-size: 25px;
 }
 
 .tweet header p {
