@@ -15,3 +15,9 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+##ScreenShots
+![This is the overall landing page..tweetbox closed](tweetr/docs/Tweetbox closed.png)
+![This is the overall landing page..tweetbox open](tweetr/docs/Tweetbox opened.png)
+![Closeup of the tweetbox and some tweets in the db](tweetr/docs/Tweetbox and tweets in the database displayed.png)
+![This is he compose button..located upper right](tweetr/docs/Compose button to open up tweetbox.png)
